@@ -28,7 +28,7 @@ function HeroContent() {
         </motion.div>
 
         {/* Headline */}
-        <div style={{ overflow: 'hidden', marginBottom: 12 }}>
+        <h1 style={{ overflow: 'hidden', marginBottom: 12, display: 'block', margin: 0 }}>
           {titleWords.map((word, i) => (
             <motion.span
               key={word}
@@ -48,7 +48,7 @@ function HeroContent() {
               {word}
             </motion.span>
           ))}
-        </div>
+        </h1>
 
         {/* Tagline */}
         <motion.p
