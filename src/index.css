@@ -44,24 +44,7 @@
   /* Typography */
   --font-serif:  'Cinzel', Georgia, serif;
   --font-sans:   'Josefin Sans', system-ui, sans-serif;
-}
 
-.dark {
-  /* === BACKGROUNDS (DARK MODE) === */
-  --color-bg:            #09152e;
-  --color-surface:       #272f44;
-  --color-surface-2:     #1e2840;
-  --color-glass:         rgba(9, 21, 46, 0.75);
-  --color-glass-light:   rgba(39, 47, 68, 0.65);
-
-  /* === TEXT === */
-  --color-text:          #F5F0E8;
-  --color-text-muted:    #686f9a;
-
-  /* === BORDERS === */
-  --color-border-glass:  rgba(255, 255, 255, 0.06);
-  --color-border-subtle: rgba(255, 255, 255, 0.05);
-}
   /* Spacing scale (3/10 density — spacious) */
   --space-1:  8px;
   --space-2:  16px;
@@ -81,6 +64,23 @@
 
   /* Blur */
   --blur-glass: 20px;
+}
+
+.dark {
+  /* === BACKGROUNDS (DARK MODE) === */
+  --color-bg:            #09152e;
+  --color-surface:       #272f44;
+  --color-surface-2:     #1e2840;
+  --color-glass:         rgba(9, 21, 46, 0.75);
+  --color-glass-light:   rgba(39, 47, 68, 0.65);
+
+  /* === TEXT === */
+  --color-text:          #F5F0E8;
+  --color-text-muted:    #686f9a;
+
+  /* === BORDERS === */
+  --color-border-glass:  rgba(255, 255, 255, 0.06);
+  --color-border-subtle: rgba(255, 255, 255, 0.05);
 }
 
 /* ============================================================

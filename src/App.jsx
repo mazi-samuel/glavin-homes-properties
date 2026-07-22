@@ -1,5 +1,5 @@
 import { AnimatePresence } from 'framer-motion'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useLenis } from './hooks/useLenis'
 import LoadingScreen from './components/LoadingScreen'
 import CustomCursor from './components/CustomCursor'
