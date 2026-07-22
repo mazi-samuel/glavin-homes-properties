@@ -4,8 +4,8 @@ import { Linkedin } from 'lucide-react'
 
 const team = [
   {
-    initials: 'GO',
-    name: 'Gabriel Okonkwo',
+    initials: 'VI',
+    name: 'Vincent Ifema',
     title: 'Founder & Principal Advisor',
     bio: '25 years in Lagos real estate. Former CBRE Nigeria. Advised on over ₦80B in transactions.',
     linkedin: '#',
@@ -13,8 +13,8 @@ const team = [
     image: '/images/founder.png',
   },
   {
-    initials: 'AE',
-    name: 'Amara Eze',
+    initials: 'GI',
+    name: 'Gladys Ifema',
     title: 'Corporate Secretary & Partner',
     bio: 'Licensed legal counsel. Over 10 years managing corporate governance, regulatory board compliance, and title transactions.',
     linkedin: '#',
@@ -22,16 +22,16 @@ const team = [
     image: '/images/secretary.png',
   },
   {
-    initials: 'TF',
-    name: 'Taiwo Fashola',
+    initials: 'TI',
+    name: 'Temple Ifema',
     title: 'Head of Research & Intelligence',
     bio: 'Former LSDPC analyst. Leads our proprietary market intelligence division and quarterly reports.',
     linkedin: '#',
     specialty: 'Market Research, Economic Analysis',
   },
   {
-    initials: 'NB',
-    name: 'Ngozi Balogun',
+    initials: 'MN',
+    name: 'Mazi Nwakaeze',
     title: 'Director, Corporate Mandates',
     bio: 'Specialises in corporate real estate strategy and institutional portfolio management.',
     linkedin: '#',
