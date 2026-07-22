@@ -1,0 +1,309 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   GLOBAL CSS TOKENS — Glavin Homes & Properties Design System
+   Brand Palette: Deep Navy × Signal Red × Blue-Purple
+   Default: Light Mode (White background)
+   .dark class: Dark Mode (Deep Navy background)
+   ============================================================ */
+:root {
+  /* === BRAND COLORS === */
+  --color-red:           #ff3131;
+  --color-red-mid:       #c84645;
+  --color-red-dark:      #983b3b;
+
+  /* === BACKGROUNDS (LIGHT MODE) === */
+  --color-bg:            #ffffff;
+  --color-surface:       #f3f4f6;
+  --color-surface-2:     #e5e7eb;
+  --color-glass:         rgba(255, 255, 255, 0.85);
+  --color-glass-light:   rgba(243, 244, 246, 0.75);
+
+  /* === MUTED / SECONDARY === */
+  --color-purple:        #4d568d;
+  --color-purple-muted:  #686f9a;
+  --color-navy-light:    #535774;
+
+  /* === TEXT === */
+  --color-text:          #09152e;
+  --color-text-muted:    #4d568d;
+
+  /* === BORDERS === */
+  --color-border:        rgba(255, 49, 49, 0.15);
+  --color-border-glass:  rgba(9, 21, 46, 0.08);
+  --color-border-subtle: rgba(9, 21, 46, 0.06);
+
+  /* Primary accent */
+  --color-primary:       var(--color-red);
+  --color-primary-mid:   var(--color-red-mid);
+  --color-primary-dark:  var(--color-red-dark);
+  --color-primary-muted: rgba(255, 49, 49, 0.12);
+
+  /* Typography */
+  --font-serif:  'Cinzel', Georgia, serif;
+  --font-sans:   'Josefin Sans', system-ui, sans-serif;
+}
+
+.dark {
+  /* === BACKGROUNDS (DARK MODE) === */
+  --color-bg:            #09152e;
+  --color-surface:       #272f44;
+  --color-surface-2:     #1e2840;
+  --color-glass:         rgba(9, 21, 46, 0.75);
+  --color-glass-light:   rgba(39, 47, 68, 0.65);
+
+  /* === TEXT === */
+  --color-text:          #F5F0E8;
+  --color-text-muted:    #686f9a;
+
+  /* === BORDERS === */
+  --color-border-glass:  rgba(255, 255, 255, 0.06);
+  --color-border-subtle: rgba(255, 255, 255, 0.05);
+}
+  /* Spacing scale (3/10 density — spacious) */
+  --space-1:  8px;
+  --space-2:  16px;
+  --space-3:  24px;
+  --space-4:  32px;
+  --space-5:  48px;
+  --space-6:  64px;
+  --space-7:  96px;
+  --space-8:  128px;
+  --space-9:  160px;
+  --space-10: 200px;
+
+  /* Easing */
+  --ease-expo-out:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-expo-in-out: cubic-bezier(0.87, 0, 0.13, 1);
+  --ease-smooth:      cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+  /* Blur */
+  --blur-glass: 20px;
+}
+
+/* ============================================================
+   BASE RESETS & GLOBAL
+   ============================================================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-weight: 400;
+  line-height: 1.7;
+  overflow-x: hidden;
+  cursor: none;
+}
+
+@media (hover: none) {
+  body { cursor: auto; }
+}
+
+/* ============================================================
+   SELECTION & SCROLLBAR
+   ============================================================ */
+::selection {
+  background: rgba(255, 49, 49, 0.2);
+  color: #ff3131;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--color-surface); }
+::-webkit-scrollbar-thumb { background: var(--color-red-dark); border-radius: 2px; }
+
+/* ============================================================
+   TYPOGRAPHY HELPERS
+   ============================================================ */
+.font-serif { font-family: var(--font-serif); }
+.font-sans  { font-family: var(--font-sans); }
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--color-red);
+}
+
+.section-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 500;
+  line-height: 1.15;
+  color: var(--color-text);
+}
+
+.section-subtitle {
+  font-family: var(--font-sans);
+  font-size: clamp(1rem, 1.5vw, 1.125rem);
+  font-weight: 300;
+  color: var(--color-text-muted);
+  line-height: 1.8;
+  max-width: 560px;
+}
+
+/* ============================================================
+   GLASS CARD
+   ============================================================ */
+.glass-card {
+  background: var(--color-glass);
+  backdrop-filter: blur(var(--blur-glass));
+  -webkit-backdrop-filter: blur(var(--blur-glass));
+  border: 1px solid var(--color-border-glass);
+  border-radius: 2px;
+}
+
+/* ============================================================
+   RED RULES (was gold-rule)
+   ============================================================ */
+.gold-rule {
+  width: 48px;
+  height: 1px;
+  background: linear-gradient(90deg, var(--color-red), transparent);
+}
+
+.gold-rule-center {
+  width: 48px;
+  height: 1px;
+  background: var(--color-red);
+  margin: 0 auto;
+}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 36px;
+  background: var(--color-red);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s var(--ease-expo-out),
+              transform 0.3s var(--ease-expo-out),
+              box-shadow 0.3s var(--ease-expo-out);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.12);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.btn-primary:hover::after { opacity: 1; }
+.btn-primary:hover { box-shadow: 0 8px 40px rgba(255, 49, 49, 0.4); }
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 36px;
+  background: transparent;
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid rgba(255, 49, 49, 0.4);
+  cursor: pointer;
+  transition: border-color 0.3s, color 0.3s, background 0.3s;
+}
+
+.btn-secondary:hover {
+  border-color: var(--color-red);
+  color: var(--color-red);
+  background: rgba(255, 49, 49, 0.08);
+}
+
+/* ============================================================
+   SECTION SPACING
+   ============================================================ */
+.section-pad    { padding: var(--space-10) 0; }
+.section-pad-sm { padding: var(--space-7) 0; }
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 var(--space-4);
+}
+
+@media (max-width: 768px) {
+  .container  { padding: 0 var(--space-3); }
+  .section-pad { padding: var(--space-7) 0; }
+}
+
+/* ============================================================
+   REDUCED MOTION
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  html { scroll-behavior: auto; }
+}
+
+/* ============================================================
+   UTILITY
+   ============================================================ */
+.text-primary  { color: var(--color-red); }
+.text-cream    { color: var(--color-text); }
+.text-muted    { color: var(--color-text-muted); }
+.bg-surface    { background: var(--color-surface); }
+.bg-surface-2  { background: var(--color-surface-2); }
+
+:focus-visible {
+  outline: 2px solid var(--color-red);
+  outline-offset: 3px;
+}
+
+img { display: block; max-width: 100%; }
+
+/* ============================================================
+   HERO GRADIENT OVERLAYS (THEMED)
+   ============================================================ */
+.hero-overlay-1 {
+  background: linear-gradient(to right, rgba(255,255,255,0.96) 35%, rgba(255,255,255,0.2) 100%);
+}
+.dark .hero-overlay-1 {
+  background: linear-gradient(to right, rgba(9,21,46,0.97) 45%, rgba(9,21,46,0.25) 100%);
+}
+
+.hero-overlay-2 {
+  background: linear-gradient(to top, #ffffff, transparent);
+}
+.dark .hero-overlay-2 {
+  background: linear-gradient(to top, #09152e, transparent);
+}
+
