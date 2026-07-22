@@ -140,7 +140,7 @@ export default function ContactSection() {
                 {
                   icon: Phone,
                   label: 'Phone',
-                  value: '+234 (0) 900 000 0000',
+                  value: '+234 803 307 8542\n+234 803 476 1081',
                 },
                 {
                   icon: Mail,

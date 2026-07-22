@@ -42,7 +42,7 @@ export default function Navbar({ isDark, toggleTheme }) {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.9, delay: 2.5, ease: [0.16, 1, 0.3, 1] }}
       >
-        <div className="container flex items-center justify-between" style={{ height: 90 }}>
+        <div className="container flex items-center justify-between" style={{ height: 110 }}>
 
           {/* Logo image (Increased height for visibility) */}
           <a
@@ -53,7 +53,7 @@ export default function Navbar({ isDark, toggleTheme }) {
             <img
               src="/images/logo.png"
               alt="Glavin Homes & Properties"
-              style={{ height: 60, width: 'auto', objectFit: 'contain' }}
+              style={{ height: 96, width: 'auto', objectFit: 'contain' }}
             />
           </a>
 
@@ -178,7 +178,7 @@ export default function Navbar({ isDark, toggleTheme }) {
               transition={{ delay: 0.1 }}
               style={{ marginBottom: 48 }}
             >
-              <img src="/images/logo.png" alt="Glavin Homes & Properties" style={{ height: 72, width: 'auto' }} />
+              <img src="/images/logo.png" alt="Glavin Homes & Properties" style={{ height: 90, width: 'auto' }} />
             </motion.div>
 
             <nav className="flex flex-col items-center gap-8">

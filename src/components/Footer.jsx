@@ -95,7 +95,7 @@ export default function Footer() {
               <img
                 src="/images/logo.png"
                 alt="Glavin Homes & Properties"
-                style={{ height: 60, width: 'auto', objectFit: 'contain' }}
+                style={{ height: 96, width: 'auto', objectFit: 'contain' }}
               />
             </button>
 
@@ -223,8 +223,8 @@ export default function Footer() {
           <p style={{ fontFamily: 'Josefin Sans, sans-serif', fontSize: '0.75rem', fontWeight: 300, color: 'var(--color-text-muted)', opacity: 0.8 }}>
             © {new Date().getFullYear()} Glavin Homes &amp; Properties Ltd (RC 7090056). All rights reserved.
           </p>
-          <p style={{ fontFamily: 'Josefin Sans, sans-serif', fontSize: '0.75rem', fontWeight: 300, color: 'var(--color-text-muted)', opacity: 0.6 }}>
-            21A Pa Shekoni Street, Sangotedo, Lagos, Nigeria
+          <p style={{ fontFamily: 'Josefin Sans, sans-serif', fontSize: '0.75rem', fontWeight: 300, color: 'var(--color-text-muted)', opacity: 0.6, textAlign: 'right' }}>
+            21A Pa Shekoni Street, Sangotedo, Lagos · +234 803 307 8542 · +234 803 476 1081
           </p>
         </div>
       </div>
