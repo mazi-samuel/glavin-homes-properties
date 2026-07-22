@@ -53,7 +53,7 @@ export default function Navbar({ isDark, toggleTheme }) {
             <img
               src="/images/logo.png"
               alt="Glavin Homes & Properties"
-              style={{ height: 96, width: 'auto', objectFit: 'contain' }}
+              style={{ height: 55, width: 'auto', objectFit: 'contain' }}
             />
           </a>
 
@@ -178,7 +178,7 @@ export default function Navbar({ isDark, toggleTheme }) {
               transition={{ delay: 0.1 }}
               style={{ marginBottom: 48 }}
             >
-              <img src="/images/logo.png" alt="Glavin Homes & Properties" style={{ height: 90, width: 'auto' }} />
+              <img src="/images/logo.png" alt="Glavin Homes & Properties" style={{ height: 50, width: 'auto' }} />
             </motion.div>
 
             <nav className="flex flex-col items-center gap-8">

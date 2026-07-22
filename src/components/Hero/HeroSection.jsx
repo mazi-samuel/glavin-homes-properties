@@ -24,7 +24,7 @@ function HeroContent() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 2.7, ease: [0.16, 1, 0.3, 1] }}
         >
-          Lagos · Nigeria · Est. 2006
+          Lagos · Nigeria · Est. 2023
         </motion.div>
 
         {/* Headline */}

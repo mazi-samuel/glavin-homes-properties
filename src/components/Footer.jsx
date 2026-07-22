@@ -95,7 +95,7 @@ export default function Footer() {
               <img
                 src="/images/logo.png"
                 alt="Glavin Homes & Properties"
-                style={{ height: 96, width: 'auto', objectFit: 'contain' }}
+                style={{ height: 55, width: 'auto', objectFit: 'contain' }}
               />
             </button>
 

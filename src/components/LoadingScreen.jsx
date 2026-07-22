@@ -26,7 +26,7 @@ export default function LoadingScreen({ onComplete }) {
           <img
             src="/images/logo.png"
             alt="Glavin Homes & Properties"
-            style={{ height: 120, width: 'auto', objectFit: 'contain' }}
+            style={{ height: 80, width: 'auto', objectFit: 'contain' }}
           />
 
           {/* Red line wipe */}
