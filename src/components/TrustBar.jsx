@@ -2,9 +2,9 @@ import { motion } from 'framer-motion'
 import { useCountUp } from '../hooks/useCountUp'
 
 const stats = [
-  { value: 18,  suffix: '+',  label: 'Years of Excellence',    sub: 'Est. 2006' },
-  { value: 50,  suffix: 'B+', prefix: '₦', label: 'Total Value Advised', sub: 'Across all portfolios' },
-  { value: 200, suffix: '+',  label: 'Projects Delivered',     sub: 'Across Lagos & beyond' },
+  { value: 3,   suffix: '+',  label: 'Years of Excellence',    sub: 'Est. 2023' },
+  { value: 500, suffix: 'M+', prefix: '₦', label: 'Total Value Advised', sub: 'Across all portfolios' },
+  { value: 5,   suffix: '+',  label: 'Projects Delivered',     sub: 'Across Lagos & beyond' },
   { value: 98,  suffix: '%',  label: 'Client Satisfaction',    sub: 'Based on client reviews' },
 ]
 
