@@ -10,14 +10,16 @@ const team = [
     bio: '25 years in Lagos real estate. Former CBRE Nigeria. Advised on over ₦80B in transactions.',
     linkedin: '#',
     specialty: 'Investment Advisory, Portfolio Strategy',
+    image: '/images/founder.png',
   },
   {
     initials: 'AE',
     name: 'Amara Eze',
-    title: 'Director, Residential Advisory',
-    bio: 'MRICS-certified. Led residential advisory on 60+ luxury developments across Lagos Island.',
+    title: 'Corporate Secretary & Partner',
+    bio: 'Licensed legal counsel. Over 10 years managing corporate governance, regulatory board compliance, and title transactions.',
     linkedin: '#',
-    specialty: 'Luxury Residential, Project Marketing',
+    specialty: 'Corporate Governance, Transaction Law',
+    image: '/images/secretary.png',
   },
   {
     initials: 'TF',
@@ -69,18 +71,33 @@ function TeamCard({ member, index }) {
           overflow: 'hidden',
         }}
       >
-        <div
-          style={{
-            fontFamily: 'Cinzel, serif',
-            fontSize: 'clamp(2.5rem, 5vw, 3.5rem)',
-            fontWeight: 400,
-            letterSpacing: '0.1em',
-            transition: 'color 0.4s',
-            color: hovered ? 'rgba(255,49,49,0.15)' : 'rgba(255,49,49,0.25)',
-          }}
-        >
-          {member.initials}
-        </div>
+        {member.image ? (
+          <img
+            src={member.image}
+            alt={member.name}
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              filter: 'brightness(0.9)',
+              transition: 'transform 0.6s cubic-bezier(0.16,1,0.3,1)',
+              transform: hovered ? 'scale(1.05)' : 'scale(1)',
+            }}
+          />
+        ) : (
+          <div
+            style={{
+              fontFamily: 'Cinzel, serif',
+              fontSize: 'clamp(2.5rem, 5vw, 3.5rem)',
+              fontWeight: 400,
+              letterSpacing: '0.1em',
+              transition: 'color 0.4s',
+              color: hovered ? 'rgba(255,49,49,0.15)' : 'rgba(255,49,49,0.25)',
+            }}
+          >
+            {member.initials}
+          </div>
+        )}
 
         <motion.div
           style={{
