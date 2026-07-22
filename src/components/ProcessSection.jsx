@@ -33,11 +33,11 @@ export default function ProcessSection() {
                 transition={{ duration: 0.8, delay: i * 0.12, ease: [0.16, 1, 0.3, 1] }}
               >
                 <div style={{ width: 64, height: 64, borderRadius: '50%', border: '1px solid rgba(255,49,49,0.3)', background: 'var(--color-bg)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 24 }}>
-                  <span style={{ fontFamily: 'Cinzel, serif', fontSize: '1rem', fontWeight: 500, color: '#ff3131', letterSpacing: '0.05em' }}>{step.number}</span>
+                  <span style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: '1rem', fontWeight: 500, color: '#ff3131', letterSpacing: '0.05em' }}>{step.number}</span>
                 </div>
-                <h3 style={{ fontFamily: 'Cinzel, serif', fontSize: '1.1rem', fontWeight: 500, color: 'var(--color-text)', marginBottom: 14, letterSpacing: '0.03em' }}>{step.title}</h3>
-                <p style={{ fontFamily: 'Josefin Sans, sans-serif', fontSize: '0.84rem', fontWeight: 300, color: 'var(--color-text-muted)', lineHeight: 1.8, marginBottom: 16 }}>{step.desc}</p>
-                <p style={{ fontFamily: 'Josefin Sans, sans-serif', fontSize: '0.75rem', fontWeight: 300, color: 'var(--color-text-muted)', opacity: 0.8, lineHeight: 1.7, paddingTop: 12, borderTop: '1px solid rgba(255,49,49,0.08)' }}>{step.detail}</p>
+                <h3 style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: '1.1rem', fontWeight: 500, color: 'var(--color-text)', marginBottom: 14, letterSpacing: '0.03em' }}>{step.title}</h3>
+                <p style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: '0.84rem', fontWeight: 300, color: 'var(--color-text-muted)', lineHeight: 1.8, marginBottom: 16 }}>{step.desc}</p>
+                <p style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: '0.75rem', fontWeight: 300, color: 'var(--color-text-muted)', opacity: 0.8, lineHeight: 1.7, paddingTop: 12, borderTop: '1px solid rgba(255,49,49,0.08)' }}>{step.detail}</p>
               </motion.div>
             ))}
           </div>

@@ -88,7 +88,7 @@ function CaseCard({ item, index }) {
             border: '1px solid rgba(255,49,49,0.25)',
             backdropFilter: 'blur(10px)',
             padding: '6px 14px',
-            fontFamily: 'Josefin Sans, sans-serif',
+            fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
             fontSize: '0.65rem',
             fontWeight: 600,
             letterSpacing: '0.2em',
@@ -105,7 +105,7 @@ function CaseCard({ item, index }) {
             position: 'absolute',
             top: 20,
             right: 20,
-            fontFamily: 'Josefin Sans, sans-serif',
+            fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
             fontSize: '0.7rem',
             color: 'rgba(245,240,232,0.6)',
             letterSpacing: '0.1em',
@@ -117,7 +117,7 @@ function CaseCard({ item, index }) {
         <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '28px 28px' }}>
           <h3
             style={{
-              fontFamily: 'Cinzel, serif',
+              fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
               fontSize: '1.1rem',
               fontWeight: 500,
               color: '#F5F0E8',
@@ -131,7 +131,7 @@ function CaseCard({ item, index }) {
 
           <div
             style={{
-              fontFamily: 'Josefin Sans, sans-serif',
+              fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
               fontSize: '0.78rem',
               fontWeight: 400,
               color: '#ff3131',
@@ -149,7 +149,7 @@ function CaseCard({ item, index }) {
           >
             <p
               style={{
-                fontFamily: 'Josefin Sans, sans-serif',
+                fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                 fontSize: '0.82rem',
                 fontWeight: 300,
                 color: 'rgba(245,240,232,0.8)',
@@ -168,7 +168,7 @@ function CaseCard({ item, index }) {
                     padding: '4px 10px',
                     background: 'rgba(255,255,255,0.06)',
                     border: '1px solid rgba(255,255,255,0.1)',
-                    fontFamily: 'Josefin Sans, sans-serif',
+                    fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                     fontSize: '0.65rem',
                     letterSpacing: '0.15em',
                     color: 'rgba(245,240,232,0.6)',

@@ -63,7 +63,7 @@ function ArticleCard({ article, index }) {
       >
         <span
           style={{
-            fontFamily: 'Josefin Sans, sans-serif',
+            fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
             fontSize: '0.62rem',
             fontWeight: 600,
             letterSpacing: '0.25em',
@@ -79,7 +79,7 @@ function ArticleCard({ article, index }) {
         </span>
         <div
           style={{
-            fontFamily: 'Josefin Sans, sans-serif',
+            fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
             fontSize: '0.7rem',
             color: 'var(--color-text-muted)',
           }}
@@ -91,7 +91,7 @@ function ArticleCard({ article, index }) {
       <div style={{ padding: '24px 28px 28px' }}>
         <div
           style={{
-            fontFamily: 'Josefin Sans, sans-serif',
+            fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
             fontSize: '0.68rem',
             fontWeight: 500,
             letterSpacing: '0.2em',
@@ -105,7 +105,7 @@ function ArticleCard({ article, index }) {
 
         <h3
           style={{
-            fontFamily: 'Cinzel, serif',
+            fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
             fontSize: '1rem',
             fontWeight: 500,
             color: 'var(--color-text)',
@@ -122,7 +122,7 @@ function ArticleCard({ article, index }) {
 
         <p
           style={{
-            fontFamily: 'Josefin Sans, sans-serif',
+            fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
             fontSize: '0.83rem',
             fontWeight: 300,
             color: 'var(--color-text-muted)',
@@ -138,7 +138,7 @@ function ArticleCard({ article, index }) {
             <Clock size={12} color="var(--color-text-muted)" />
             <span
               style={{
-                fontFamily: 'Josefin Sans, sans-serif',
+                fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                 fontSize: '0.7rem',
                 color: 'var(--color-text-muted)',
               }}
@@ -148,7 +148,7 @@ function ArticleCard({ article, index }) {
           </div>
           <div
             style={{
-              fontFamily: 'Josefin Sans, sans-serif',
+              fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
               fontSize: '0.72rem',
               fontWeight: 500,
               color: '#ff3131',

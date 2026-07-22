@@ -18,7 +18,7 @@ export default function AboutSection() {
               Lagos's Premier Real Estate &amp; Advisory Firm
             </h2>
 
-            <div style={{ fontFamily: 'Josefin Sans, sans-serif', fontStyle: 'italic', fontSize: '1.1rem', fontWeight: 300, color: '#ff3131', lineHeight: 1.8, marginBottom: 28, paddingLeft: 20, borderLeft: '2px solid rgba(255,49,49,0.4)' }}>
+            <div style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontStyle: 'italic', fontSize: '1.1rem', fontWeight: 300, color: '#ff3131', lineHeight: 1.8, marginBottom: 28, paddingLeft: 20, borderLeft: '2px solid rgba(255,49,49,0.4)' }}>
               "We don't just advise on property — we shape the future of how Lagos lives, works, and grows."
             </div>
 
@@ -48,7 +48,7 @@ export default function AboutSection() {
               }}
             >
               <ShieldCheck size={20} color="#ff3131" />
-              <div style={{ fontFamily: 'Josefin Sans, sans-serif', fontSize: '0.8rem', fontWeight: 500, color: 'var(--color-text)' }}>
+              <div style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: '0.8rem', fontWeight: 500, color: 'var(--color-text)' }}>
                 CAC Registered Private Limited Company · RC 7090056
               </div>
             </div>
@@ -63,10 +63,10 @@ export default function AboutSection() {
                 { label: 'Our Promise', desc: 'Transparent, rigorous, and unwavering commitment to your outcomes.' },
               ].map((item) => (
                 <div key={item.label} style={{ flex: '1 1 200px' }}>
-                  <div style={{ fontFamily: 'Cinzel, serif', fontSize: '0.85rem', fontWeight: 500, color: '#ff3131', marginBottom: 8, letterSpacing: '0.05em' }}>
+                  <div style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: '0.85rem', fontWeight: 500, color: '#ff3131', marginBottom: 8, letterSpacing: '0.05em' }}>
                     {item.label}
                   </div>
-                  <div style={{ fontFamily: 'Josefin Sans, sans-serif', fontSize: '0.9rem', fontWeight: 300, color: 'var(--color-text-muted)', lineHeight: 1.7 }}>
+                  <div style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: '0.9rem', fontWeight: 300, color: 'var(--color-text-muted)', lineHeight: 1.7 }}>
                     {item.desc}
                   </div>
                 </div>
@@ -100,8 +100,8 @@ export default function AboutSection() {
               initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <div style={{ fontFamily: 'Cinzel, serif', fontSize: '2rem', fontWeight: 500, color: '#ff3131', lineHeight: 1 }}>18+</div>
-              <div style={{ fontFamily: 'Josefin Sans, sans-serif', fontSize: '0.75rem', fontWeight: 400, color: 'var(--color-text-muted)', letterSpacing: '0.15em', textTransform: 'uppercase', marginTop: 8 }}>
+              <div style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: '2rem', fontWeight: 500, color: '#ff3131', lineHeight: 1 }}>3+</div>
+              <div style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: '0.75rem', fontWeight: 400, color: 'var(--color-text-muted)', letterSpacing: '0.15em', textTransform: 'uppercase', marginTop: 8 }}>
                 Years shaping Lagos real estate
               </div>
             </motion.div>

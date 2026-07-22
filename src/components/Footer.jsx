@@ -61,7 +61,7 @@ function TikTokIcon() {
 }
 
 const linkStyle = {
-  fontFamily: 'Josefin Sans, sans-serif',
+  fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
   fontSize: '0.82rem',
   fontWeight: 300,
   color: 'var(--color-text-muted)',
@@ -103,7 +103,7 @@ export default function Footer() {
 
             <p
               style={{
-                fontFamily: 'Josefin Sans, sans-serif',
+                fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                 fontSize: '0.85rem',
                 fontWeight: 300,
                 color: 'var(--color-text-muted)',
@@ -188,7 +188,7 @@ export default function Footer() {
               <div key={col.title}>
                 <div
                   style={{
-                    fontFamily: 'Josefin Sans, sans-serif',
+                    fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                     fontSize: '0.7rem',
                     fontWeight: 600,
                     letterSpacing: '0.25em',
@@ -220,10 +220,10 @@ export default function Footer() {
           className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8"
           style={{ borderTop: '1px solid rgba(255,49,49,0.08)' }}
         >
-          <p style={{ fontFamily: 'Josefin Sans, sans-serif', fontSize: '0.75rem', fontWeight: 300, color: 'var(--color-text-muted)', opacity: 0.8 }}>
+          <p style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: '0.75rem', fontWeight: 300, color: 'var(--color-text-muted)', opacity: 0.8 }}>
             © {new Date().getFullYear()} Glavin Homes &amp; Properties Ltd (RC 7090056). All rights reserved.
           </p>
-          <p style={{ fontFamily: 'Josefin Sans, sans-serif', fontSize: '0.75rem', fontWeight: 300, color: 'var(--color-text-muted)', opacity: 0.6, textAlign: 'right' }}>
+          <p style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: '0.75rem', fontWeight: 300, color: 'var(--color-text-muted)', opacity: 0.6, textAlign: 'right' }}>
             21A Pa Shekoni Street, Sangotedo, Lagos · +234 803 307 8542 · +234 803 476 1081
           </p>
         </div>

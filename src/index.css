@@ -42,8 +42,8 @@
   --color-primary-muted: rgba(255, 49, 49, 0.12);
 
   /* Typography */
-  --font-serif:  'Cinzel', Georgia, serif;
-  --font-sans:   'Josefin Sans', system-ui, sans-serif;
+  --font-serif:  'Montserrat', 'Poppins', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-sans:   'Montserrat', 'Poppins', 'Inter', system-ui, -apple-system, sans-serif;
 
   /* Spacing scale (3/10 density — spacious) */
   --space-1:  8px;

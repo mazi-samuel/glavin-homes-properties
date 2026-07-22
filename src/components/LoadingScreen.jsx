@@ -40,7 +40,7 @@ export default function LoadingScreen({ onComplete }) {
           {/* Tagline */}
           <motion.div
             style={{
-              fontFamily: 'Josefin Sans, sans-serif',
+              fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
               fontSize: '0.65rem',
               fontWeight: 500,
               letterSpacing: '0.45em',

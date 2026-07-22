@@ -65,7 +65,7 @@ export default function Navbar({ isDark, toggleTheme }) {
                 onClick={() => handleNavClick(link.href)}
                 className="relative group"
                 style={{
-                  fontFamily: 'Josefin Sans, sans-serif',
+                  fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                   fontSize: '0.7rem',
                   fontWeight: 600,
                   letterSpacing: '0.2em',
@@ -190,7 +190,7 @@ export default function Navbar({ isDark, toggleTheme }) {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: i * 0.07 + 0.15, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
                   style={{
-                    fontFamily: 'Cinzel, serif',
+                    fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                     fontSize: '1.5rem',
                     fontWeight: 400,
                     letterSpacing: '0.1em',

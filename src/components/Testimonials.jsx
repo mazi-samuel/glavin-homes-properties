@@ -110,7 +110,7 @@ export default function Testimonials() {
               >
                 <blockquote
                   style={{
-                    fontFamily: 'Cinzel, serif',
+                    fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                     fontStyle: 'italic',
                     fontSize: 'clamp(1rem, 2vw, 1.25rem)',
                     fontWeight: 400,
@@ -134,7 +134,7 @@ export default function Testimonials() {
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
-                      fontFamily: 'Cinzel, serif',
+                      fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                       fontSize: '0.85rem',
                       fontWeight: 500,
                       color: '#ff3131',
@@ -146,7 +146,7 @@ export default function Testimonials() {
                   <div>
                     <div
                       style={{
-                        fontFamily: 'Josefin Sans, sans-serif',
+                        fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                         fontSize: '0.9rem',
                         fontWeight: 600,
                         color: 'var(--color-text)',
@@ -157,7 +157,7 @@ export default function Testimonials() {
                     </div>
                     <div
                       style={{
-                        fontFamily: 'Josefin Sans, sans-serif',
+                        fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                         fontSize: '0.75rem',
                         fontWeight: 300,
                         color: 'var(--color-text-muted)',

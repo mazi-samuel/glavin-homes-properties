@@ -20,13 +20,13 @@ function StatItem({ stat, index }) {
       viewport={{ once: true, margin: '-50px' }}
       transition={{ duration: 0.8, delay: index * 0.12, ease: [0.16, 1, 0.3, 1] }}
     >
-      <div style={{ fontFamily: 'Cinzel, serif', fontSize: 'clamp(2.2rem, 4vw, 3.2rem)', fontWeight: 500, color: '#ff3131', lineHeight: 1, letterSpacing: '-0.01em' }}>
+      <div style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: 'clamp(2.2rem, 4vw, 3.2rem)', fontWeight: 500, color: '#ff3131', lineHeight: 1, letterSpacing: '-0.01em' }}>
         {stat.prefix || ''}{display}
       </div>
-      <div style={{ fontFamily: 'Josefin Sans, sans-serif', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--color-text)', marginTop: 10 }}>
+      <div style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--color-text)', marginTop: 10 }}>
         {stat.label}
       </div>
-      <div style={{ fontFamily: 'Josefin Sans, sans-serif', fontSize: '0.7rem', fontWeight: 300, color: 'var(--color-text-muted)', marginTop: 4, letterSpacing: '0.05em' }}>
+      <div style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: '0.7rem', fontWeight: 300, color: 'var(--color-text-muted)', marginTop: 4, letterSpacing: '0.05em' }}>
         {stat.sub}
       </div>
       {index < stats.length - 1 && (
@@ -58,7 +58,7 @@ export default function TrustBar() {
         >
           <span className="eyebrow" style={{ color: 'var(--color-text-muted)' }}>Trusted By</span>
           {['NIESV', 'RICS', 'LSDPC', 'REDAN', 'NBS'].map((name) => (
-            <span key={name} style={{ fontFamily: 'Josefin Sans, sans-serif', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.25em', color: 'var(--color-text-muted)', opacity: 0.5, textTransform: 'uppercase' }}>
+            <span key={name} style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.25em', color: 'var(--color-text-muted)', opacity: 0.5, textTransform: 'uppercase' }}>
               {name}
             </span>
           ))}

@@ -24,8 +24,8 @@ export default {
         'cream-muted': '#686f9a',
       },
       fontFamily: {
-        serif: ['Cinzel', 'Georgia', 'serif'],
-        sans:  ['Josefin Sans', 'system-ui', 'sans-serif'],
+        serif: ['Montserrat', 'Poppins', 'Inter', 'sans-serif'],
+        sans:  ['Montserrat', 'Poppins', 'Inter', 'sans-serif'],
       },
       letterSpacing: {
         widest: '0.3em',

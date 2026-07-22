@@ -34,7 +34,7 @@ function HeroContent() {
               key={word}
               style={{
                 display: i < 3 ? 'block' : 'inline-block',
-                fontFamily: 'Cinzel, serif',
+                fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                 fontSize: 'clamp(2.8rem, 7vw, 6.5rem)',
                 fontWeight: 500,
                 lineHeight: 1.05,
@@ -53,7 +53,7 @@ function HeroContent() {
         {/* Tagline */}
         <motion.p
           style={{
-            fontFamily: 'Josefin Sans, sans-serif',
+            fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
             fontSize: 'clamp(0.95rem, 1.5vw, 1.1rem)',
             fontWeight: 300,
             color: 'var(--color-text-muted)',
@@ -103,15 +103,15 @@ function HeroContent() {
           <div style={{ width: 1, height: 40, background: 'rgba(255,49,49,0.3)' }} />
           <div className="flex gap-12">
             {[
-              { num: '18+',  label: 'Years'   },
-              { num: '₦50B+',label: 'Advised' },
-              { num: '200+', label: 'Projects' },
+              { num: '3+',     label: 'years' },
+              { num: '₦500M+', label: 'advised' },
+              { num: '5+',     label: 'projects' },
             ].map((s) => (
               <div key={s.label}>
-                <div style={{ fontFamily: 'Cinzel, serif', fontSize: '1.3rem', fontWeight: 500, color: '#ff3131', lineHeight: 1 }}>
+                <div style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: '1.3rem', fontWeight: 500, color: '#ff3131', lineHeight: 1 }}>
                   {s.num}
                 </div>
-                <div className="eyebrow" style={{ fontSize: '0.6rem', marginTop: 4, color: 'var(--color-text-muted)' }}>
+                <div className="eyebrow" style={{ fontSize: '0.6rem', marginTop: 4, color: 'var(--color-text-muted)', textTransform: 'uppercase' }}>
                   {s.label}
                 </div>
               </div>

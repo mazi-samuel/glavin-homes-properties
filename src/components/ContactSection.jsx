@@ -51,7 +51,7 @@ export default function ContactSection() {
     border: '1px solid var(--color-border-subtle)',
     borderRadius: 2,
     padding: '14px 16px',
-    fontFamily: 'Josefin Sans, sans-serif',
+    fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
     fontSize: '0.9rem',
     fontWeight: 300,
     color: 'var(--color-text)',
@@ -61,7 +61,7 @@ export default function ContactSection() {
   }
 
   const labelBase = {
-    fontFamily: 'Josefin Sans, sans-serif',
+    fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
     fontSize: '0.7rem',
     fontWeight: 600,
     letterSpacing: '0.2em',
@@ -120,7 +120,7 @@ export default function ContactSection() {
             >
               <h3
                 style={{
-                  fontFamily: 'Cinzel, serif',
+                  fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                   fontSize: '1rem',
                   fontWeight: 500,
                   color: 'var(--color-text)',
@@ -172,7 +172,7 @@ export default function ContactSection() {
                     <div style={{ ...labelBase, marginBottom: 4 }}>{label}</div>
                     <div
                       style={{
-                        fontFamily: 'Josefin Sans, sans-serif',
+                        fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                         fontSize: '0.88rem',
                         fontWeight: 300,
                         color: 'var(--color-text-muted)',
@@ -207,7 +207,7 @@ export default function ContactSection() {
                   key={day}
                   className="flex justify-between"
                   style={{
-                    fontFamily: 'Josefin Sans, sans-serif',
+                    fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                     fontSize: '0.82rem',
                     fontWeight: 300,
                     color: 'var(--color-text-muted)',
@@ -256,7 +256,7 @@ export default function ContactSection() {
                 </div>
                 <h3
                   style={{
-                    fontFamily: 'Cinzel, serif',
+                    fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                     fontSize: '1.4rem',
                     fontWeight: 500,
                     color: 'var(--color-text)',
@@ -267,7 +267,7 @@ export default function ContactSection() {
                 </h3>
                 <p
                   style={{
-                    fontFamily: 'Josefin Sans, sans-serif',
+                    fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                     fontSize: '0.95rem',
                     fontWeight: 300,
                     color: 'var(--color-text-muted)',
@@ -360,7 +360,7 @@ export default function ContactSection() {
                   <p
                     style={{
                       color: '#ff3131',
-                      fontFamily: 'Josefin Sans, sans-serif',
+                      fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                       fontSize: '0.82rem',
                       marginBottom: 16,
                     }}
@@ -381,7 +381,7 @@ export default function ContactSection() {
                   </button>
                   <p
                     style={{
-                      fontFamily: 'Josefin Sans, sans-serif',
+                      fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
                       fontSize: '0.75rem',
                       fontWeight: 300,
                       color: 'var(--color-text-muted)',

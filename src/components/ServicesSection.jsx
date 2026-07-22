@@ -42,11 +42,11 @@ function ServiceCard({ service, index }) {
         <Icon size={20} color={hovered ? '#ff3131' : 'var(--color-text-muted)'} strokeWidth={1.5} />
       </div>
 
-      <h3 style={{ fontFamily: 'Cinzel, serif', fontSize: '1rem', fontWeight: 500, color: hovered ? '#ff3131' : 'var(--color-text)', marginBottom: 12, letterSpacing: '0.02em', lineHeight: 1.3, transition: 'color 0.3s' }}>
+      <h3 style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: '1rem', fontWeight: 500, color: hovered ? '#ff3131' : 'var(--color-text)', marginBottom: 12, letterSpacing: '0.02em', lineHeight: 1.3, transition: 'color 0.3s' }}>
         {service.title}
       </h3>
 
-      <p style={{ fontFamily: 'Josefin Sans, sans-serif', fontSize: '0.85rem', fontWeight: 300, color: 'var(--color-text-muted)', lineHeight: 1.7, marginBottom: hovered ? 20 : 0, transition: 'margin 0.3s' }}>
+      <p style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: '0.85rem', fontWeight: 300, color: 'var(--color-text-muted)', lineHeight: 1.7, marginBottom: hovered ? 20 : 0, transition: 'margin 0.3s' }}>
         {service.short}
       </p>
 
@@ -57,7 +57,7 @@ function ServiceCard({ service, index }) {
         style={{ overflow: 'hidden' }}
       >
         <div style={{ paddingTop: 4, borderTop: '1px solid rgba(255,49,49,0.12)' }}>
-          <p style={{ fontFamily: 'Josefin Sans, sans-serif', fontSize: '0.82rem', fontWeight: 300, color: 'var(--color-text-muted)', lineHeight: 1.8, paddingTop: 16 }}>
+          <p style={{ fontFamily: 'Montserrat, Poppins, Inter, sans-serif', fontSize: '0.82rem', fontWeight: 300, color: 'var(--color-text-muted)', lineHeight: 1.8, paddingTop: 16 }}>
             {service.detail}
           </p>
         </div>

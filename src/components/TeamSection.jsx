@@ -87,7 +87,7 @@ function TeamCard({ member, index }) {
         ) : (
           <div
             style={{
-              fontFamily: 'Cinzel, serif',
+              fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
               fontSize: 'clamp(2.5rem, 5vw, 3.5rem)',
               fontWeight: 400,
               letterSpacing: '0.1em',
@@ -119,7 +119,7 @@ function TeamCard({ member, index }) {
         >
           <p
             style={{
-              fontFamily: 'Josefin Sans, sans-serif',
+              fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
               fontSize: '0.85rem',
               fontWeight: 300,
               color: 'var(--color-text)',
@@ -131,7 +131,7 @@ function TeamCard({ member, index }) {
           </p>
           <div
             style={{
-              fontFamily: 'Josefin Sans, sans-serif',
+              fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
               fontSize: '0.7rem',
               fontWeight: 500,
               color: '#ff3131',
@@ -164,7 +164,7 @@ function TeamCard({ member, index }) {
       <div style={{ padding: '20px 24px 24px' }}>
         <div
           style={{
-            fontFamily: 'Cinzel, serif',
+            fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
             fontSize: '0.95rem',
             fontWeight: 500,
             color: 'var(--color-text)',
@@ -176,7 +176,7 @@ function TeamCard({ member, index }) {
         </div>
         <div
           style={{
-            fontFamily: 'Josefin Sans, sans-serif',
+            fontFamily: 'Montserrat, Poppins, Inter, sans-serif',
             fontSize: '0.72rem',
             fontWeight: 400,
             color: '#ff3131',
