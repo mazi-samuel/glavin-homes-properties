@@ -19,9 +19,11 @@ import Footer from './components/Footer'
 export default function App() {
   const [loading, setLoading] = useState(true)
   const [isDark, setIsDark] = useState(() => {
-    // Default to dark mode as it was the original theme, or read from localStorage
     const saved = localStorage.getItem('theme')
-    return saved ? saved === 'dark' : true
+    if (saved) return saved === 'dark'
+    // Dynamic theme: light mode (7:00 to 17:59), dark mode otherwise
+    const hour = new Date().getHours()
+    return hour < 7 || hour >= 18
   })
 
   useLenis()

@@ -15,8 +15,8 @@ const team = [
   {
     initials: 'GI',
     name: 'Gladys Ifema',
-    title: 'Corporate Secretary & Partner',
-    bio: 'Manages corporate governance, contract administration, regulatory compliance, and client transactions.',
+    title: 'Director',
+    bio: 'Co-leads strategic advisory and structural real estate mandates, ensuring corporate compliance and governance across primary portfolios.',
     linkedin: '#',
     specialty: 'Corporate Governance, Transaction Law',
     image: '/images/secretary.png',

@@ -199,7 +199,7 @@ export default function ContactSection() {
                 Office Hours
               </div>
               {[
-                ['Monday – Friday', '8:00am – 6:00pm'],
+                ['Monday – Friday', '8:00am – 5:00pm'],
                 ['Saturday', '9:00am – 2:00pm'],
                 ['Sunday', 'By Appointment Only'],
               ].map(([day, hours]) => (
